@@ -1,1 +1,8 @@
 # PvP-Project-Datapack
+This is a small minecraft datapack which adds functionality for a custom PvP project. It only works in one specific world and isn't at all customizable, since all variables are hardcoded. The project includes scores, particle effects, sound effects and certain commands used to administrate and debug the project.
+
+## Basic functionality
+The project has place for an arbitrary number of players, each one assigned to one of four teams. These teams cannot interact with each other, since they're each assigned to a section of the map. In the center of the map is an arena. Every 4 hours a tournament happens at this arena. This means, if at least two teams are online and at least one player has entered the arena, The tournament starts. After 10 minutes, a win area opens. Whoever finds himself first in this area, wins the tournament and is teleported to the hall of fame, where he can teleport himself and other players (usually of his own team) to the dimension room, where they can enter the nether or the end. After 30 minutes, these players are teleported back to the section of their team in the overworld. After a certain amount of time, an admin can activete the kill counter, which counts the kills of each team. At the same time, the borders in between the overworld sections disappear, so the players can hunt each other down. The team which reaches 150 kills first, wins the whole PvP project.
+
+## Technical details
+Most of the code is based on the scoreboard command, since it's the only way to simulate variables in the minecraft command language. The same could be easily achieved with a plugin, but I've never made one before and this needed to be done in one week.
