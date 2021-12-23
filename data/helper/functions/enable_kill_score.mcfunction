@@ -1,0 +1,2 @@
+scoreboard players set kill_score_enabled variables 1
+scoreboard objectives setdisplay list own_team_kills

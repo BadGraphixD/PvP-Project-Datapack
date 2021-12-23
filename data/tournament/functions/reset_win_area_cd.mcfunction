@@ -1,0 +1,1 @@
+scoreboard players set win_area_cd variables 12000

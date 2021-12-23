@@ -1,0 +1,1 @@
+scoreboard players set tournament_cd variables 288000

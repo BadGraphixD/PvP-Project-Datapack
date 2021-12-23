@@ -1,0 +1,1 @@
+tellraw @a {"text": "PvP-Project Datapack loaded!", "color": "#55FF55"}
